@@ -12,7 +12,8 @@ public class CreateUser {
         RestAssured.baseURI = "https://reqres.in";
 
         given().log().all().header("Content-Type","application/json")
-                .body(getCreateUserPayLoad())
+                //.body(getCreateUserPayLoad())
+                .body(getCreateUserPayLoad("Praveen","Lead"))
                 .when().post("/api/users")
                 .then().log().all().assertThat().statusCode(201);
     }

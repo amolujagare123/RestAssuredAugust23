@@ -10,4 +10,24 @@ public class PayLoadCreateUser {
                     "}" ;
     }
 
+    public static String getCreateUserPayLoad(String name,String job)
+    {
+       /* return "   {\n" +
+                "    \"name\": \""+name+"\",\n" +
+                "    \"job\": \""+job+"\"\n" +
+                "}" ;*/
+
+       /* return "   {\n" +
+                "    \"name\": \"+name+\",\n" +
+                "    \"job\": \"+job+\"\n" +
+                "}" ;*/
+
+        return String.format("{\n" +
+                        "    \"name\": \"%s\",\n" +
+                        "    \"job\": \"%s\"\n" +
+                        "}",
+                name, job);
+
+    }
+
 }
