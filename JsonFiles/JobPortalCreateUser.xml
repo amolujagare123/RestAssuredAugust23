@@ -1,0 +1,13 @@
+
+<Job>
+    <experience>Java</experience>
+    <jobDescription>Software test engineer with 3 years experience</jobDescription>
+    <jobId>125</jobId>
+    <jobTitle>Manual Tester</jobTitle>
+    <project>
+        <projectName>Stock Management</projectName>
+        <Technology>Java</Technology>
+        <Technology>SQL</Technology>
+        <Technology>selenium</Technology>
+    </project>
+    </Job>

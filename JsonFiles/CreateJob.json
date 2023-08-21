@@ -1,0 +1,18 @@
+{
+  "experience": [
+    "Java",
+"SQL",
+"Selenium"
+  ],
+  "jobDescription": "Software test engineer with 3 years experience",
+  "jobId": 124,
+  "jobTitle": "API Tester",
+  "project": [
+    {
+      "projectName": "Stock Management",
+      "Technology": [
+        "Java" , "SQL" , "selenium"
+       ]
+    }
+  ]
+}
