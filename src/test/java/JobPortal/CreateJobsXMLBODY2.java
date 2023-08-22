@@ -23,17 +23,7 @@ public class CreateJobsXMLBODY2 {
                 .accept("application/xml")
                 .contentType("application/xml")
            //    .body(new String(Files.readAllBytes(Paths.get("JsonFiles/JobPortalCreateUser.xml"))))
-                .body("<?xml version=\"1.0\"?>\n" +
-                        "<Job>\n" +
-                        "  <experience>string</experience>\n" +
-                        "  <jobDescription>string</jobDescription>\n" +
-                        "  <jobId>"+1+"</jobId>\n" +
-                        "  <jobTitle>string</jobTitle>\n" +
-                        "  <project>\n" +
-                        "    <projectName>string</projectName>\n" +
-                        "    <technology>string</technology>\n" +
-                        "  </project>\n" +
-                        "</Job>\n")
+                .body("")
                 .when().post("/normal/webapi/add")
                 .then().log().all().assertThat().statusCode(201);
     }
