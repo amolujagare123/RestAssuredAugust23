@@ -22,7 +22,7 @@ public class GoRestCommentPOJO {
         this.post_id = post_id;
     }
 
-    public String getName() {
+   public String getName() {
         return name;
     }
 
@@ -37,8 +37,7 @@ public class GoRestCommentPOJO {
     public void setEmail(String email) {
         this.email = email;
     }
-
-    public String getBody() {
+   public String getBody() {
         return body;
     }
 
