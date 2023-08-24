@@ -25,5 +25,6 @@ public class SampleCreateUser {
                 .extract().as(SampleCreateUserResponsePOJO.class);
 
         System.out.println("Created AT = "+responseObj.getCreatedAt());
+        System.out.println("id = "+responseObj.getId());
     }
 }
