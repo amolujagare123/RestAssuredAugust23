@@ -16,7 +16,7 @@ public class CreateChatUser {
                 .auth().preemptive().basic("admin","admin123")
                 .contentType("application/json")
                 .body("{\n" +
-                        "  \"username\": \"kumar1\",\n" +
+                        "  \"username\": \"amol112233\",\n" +
                         "  \"password\": \"kumar123\",\n" +
                         "  \"email\": \"kumar@example.org\",\n" +
                         "  \"name\": \"kumar\",\n" +

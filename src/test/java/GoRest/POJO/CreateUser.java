@@ -14,8 +14,8 @@ public class CreateUser {
         RestAssured.baseURI = "https://gorest.co.in/";
 
         GoRestCreateUserPOJO ob = new GoRestCreateUserPOJO();
-        ob.setName("Rohit");
-        ob.setEmail("rohit@gmail.com");
+        ob.setName("Rohit2");
+        ob.setEmail("rohit1@gmail.com");
         ob.setGender("male");
         ob.setStatus("active");
 
